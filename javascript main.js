@@ -1,3 +1,4 @@
+alert('Landscape mode is recommended for mobile users.');
 function update()
 {
 	$("iframe").contents().find("html").html(
