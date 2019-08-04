@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Codeplayer</title>
+		<script src="jquery.min.js"></script>
+		<link rel="stylesheet" href="stylesheet main.css">
+		<link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="top-panel">
+			<div id="mini">CodePlayer</div>
+			<div id='des'>- Play your Code instantly!</div>
+			<div id="panel-content">
+				<div id="html" class="press initial">HTML</div>
+				<div id="css" class="press">CSS</div>
+				<div id="js" class="press">JAVASCRIPT</div>
+				<div id="output" class="press initial">OUTPUT</div>
+			</div>
+			<p id="cred">Made by Varun Kedia(04/06/2019)</p>
+		</div>
+		<div id="dabody">
+			<textarea id="writehtml" class='hey'><p id='pa'>Write code here</p></textarea>
+			<textarea id="writecss" class='hide hey'>p{color:red}</textarea>
+			<textarea id="writejs" class='hide hey'>
+				document.getElementById('pa').innerHTML='This text is changed using Javascript';
+			</textarea>
+			<iframe id="writeoutput" class='hey'></iframe>
+		</div>
+		<script src="javascript main.js"></script>
+	</body>
+</html>
